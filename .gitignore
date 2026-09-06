@@ -1,0 +1,22 @@
+# Arduino / PlatformIO
+build/
+.build/
+*.bin
+*.hex
+*.elf
+*.o
+*.d
+*.map
+*.a
+
+# Editor Settings
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# Local Config
+config.h  # اگر در فایل config اطلاعات حساسی مثل رمز وای‌فای دارید، بهتر است آپلود نشود
